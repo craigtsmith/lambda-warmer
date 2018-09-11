@@ -28,8 +28,10 @@
   "homepage": "https://github.com/jeremydaly/lambda-warmer#readme",
   "dependencies": {
   },
+  "peerDependencies": {
+    "aws-sdk": "^2.273.1"
+   },
   "devDependencies": {
-    "aws-sdk": "^2.273.1",
     "chai": "^4.1.2",
     "coveralls": "^3.0.2",
     "eslint": "^5.1.0",
